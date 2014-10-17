@@ -3,7 +3,7 @@ require 'rubygems'
 require 'translit'
 
 if ARGV[0]
-  puts Translit.convert ARGV.join(' ')
+  puts Transliterator.new.convert ARGV.join(' ')
 else
   output = ""
   while input = STDIN.gets
@@ -11,7 +11,7 @@ else
       puts output
       break
     else
-      output += Translit.convert input
+      output += Transliterator.new.convert input
     end
   end
 end

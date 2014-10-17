@@ -1,8 +1,8 @@
 require 'rake'
 
 Gem::Specification.new do |s|
-  s.name = %q{translit}
-  s.version = '0.1.5'
+  s.name = %q{transliterator}
+  s.version = '0.0.1'
 
   s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
   s.authors = ['project_contibutors']
@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
   s.files = FileList['{bin,lib}/**/*', 'README.markdown'].to_a
   s.has_rdoc = false
   s.bindir = 'bin'
-  s.executables = %w{translit}
-  s.default_executable = 'bin/translit'
-  s.homepage = %q{http://github.com/tjbladez/translit}
+  s.executables = %w{transliterator}
+  s.default_executable = 'bin/transliterator'
+  s.homepage = %q{http://github.com/exAspArk/transliterator}
   s.summary = %q{Transliteration between cyrillic <-> latin from command-line or your program | Транслитерация между кириллицей и латиницей с коммандной строки или в твоей программе}
   s.post_install_message = %q{You are ready to transliterate | Вы готовы к транслитерации}
 end
