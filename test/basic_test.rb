@@ -1,3 +1,4 @@
+#encoding: utf-8
 require 'rubygems'
 require 'riot'
 $:.unshift "#{File.dirname(__FILE__)}/../lib"
