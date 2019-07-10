@@ -1,6 +1,3 @@
-#encoding: utf-8
-require 'rake'
-
 Gem::Specification.new do |s|
   s.name = %q{transliterator}
   s.version = '0.0.1'
